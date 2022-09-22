@@ -1,0 +1,24 @@
+{
+  "name": "recipebook",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Recipe book manegment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Makhsudjon Turaev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "hbs": "^4.2.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
